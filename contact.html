@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.14.0/css/all.css" />
+</head>
+
+<body>
+  <header>
+    <div class="head">
+      <figure>
+        <img src="./image/logo_404.jpg" alt="Store logo" />
+        <h1 id="storeName">404 BOOK STORE</h1>
+      </figure>
+
+      <div id="info">
+        <p><i class="fas fa-search">SEARCH</i></p>
+        <p><a href="./index.html"><i class="fas fa-store">HOME</i></a></p>
+        <p><i class="fas fa-shopping-cart">SHOP</i></p>
+        <p><a href="./contact.html"><i class="fas fa-phone-square-alt">CONTACT</i></a></p>
+        <p><i class="fas fa-envelope">EMAIL</i></p>
+        <!-- description about my store -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="form">
+      <form id="submission" action="https://httpbin.org/post" method="POST">
+        <label id="name" for="getName">
+          <p>Name:</p>
+          <input type="text" placeholder="Name" name="name" id="getName" value="" required maxlength="128"
+            autocomplete="off" autocorrect="off" spellcheck="false">
+        </label>
+
+        <label for="getEmail">
+          <p>Email:</p>
+          <input type="email" placeholder="Email" name="email" id="getEmail" value="" required maxlength="128"
+            autocomplete="off" autocorrect="off" spellcheck="false">
+        </label>
+
+        <label for="getAddress">
+          <p>Address:</p>
+          <input type="text" placeholder="Address" name="address" id="getAddress" value="" required maxlength="128"
+            autocomplete="off" autocorrect="off" spellcheck="false">
+        </label>
+
+        <label for="getCity">
+          <p>City:</p>
+          <input type="text" placeholder="City" list="cityList" name="city" id="getCity" value="" required
+            maxlength="128" autocomplete="off" autocorrect="off" spellcheck="false">
+          <datalist id="cityList">
+            <option value="Toronto"></option>
+            <option value="Montreal"></option>
+            <option value="Calgary"></option>
+            <option value="Ottawa"></option>
+            <option value="Edmonton"></option>
+          </datalist>
+        </label>
+
+        <label for="getPostalCode">
+          <p>Postal Code:</p>
+          <input type="text" placeholder="Postal Code" name="postalCode" id="getPostalCode" value="" required
+            minlength="6" maxlength="7" autocomplete="off" autocorrect="off" spellcheck="false"
+            pattern="[A-Za-z][0-9][A-Za-z][ ]?[0-9][A-Za-z][0-9]">
+        </label>
+
+        <label for="getContentType">
+          <p>Type:</p>
+          <select name="type" id="getContentType" required>
+            <option value="Question">Question</option>
+            <option value="Comment">Comment</option>
+            <option value="OrderProblem">Order Problem</option>
+          </select>
+        </label>
+
+        <label for="getContent">
+          <p id="contentP">Content:</p>
+          <input type="text" placeholder="Order" id="orderNumber" name="orderNumber" value="" required maxlength="128"
+            autocomplete="off" autocorrect="off" spellcheck="false">
+          <textarea name="content" id="getContent" cols="400" rows="200" maxlength="512" required autocomplete="off"
+            autocorrect="off" spellcheck="false"></textarea>
+        </label>
+
+        <input type="hidden" name="myName" id="myName" value="Bin Xu">
+
+        <div>
+          <button id="button" type="submit">SUBMIT</button>
+        </div>
+
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerStoreName">404 BOOK STORE</p>
+    <p>Accesibility</p>
+    <p>Copyright Information</p>
+    <p>Privacy Policy</p>
+    <p>About</p>
+    <form id="subscribe" action="https://formspree.io/xyynvwer" method="POST">
+      <label for="email">
+        Email:
+        <input placeholder="Email" type="email" name="getEmail" value="" id="email" required maxlength="128"
+          autocomplete="off" spellcheck="false" autocorrect="off">
+      </label>
+
+      <div>
+        <button id="subButton">Subscribe</button>
+      </div>
+    </form>
+  </footer>
+
+  <script src="./form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+/* Add any CSS you need to this file. */
+/* Alfa Slab One */
+@import url('//fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+/* Lemonda */
+@import url('//fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+/* Vollkorn */
+@import url('//fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+
+html,
+body {
+  min-width: 1160px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  background-color: #ebe4ab;
+  padding-bottom: 10px;
+}
+
+header .head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header figure {
+  margin: 0em;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+header figure h1 {
+  font-family: 'Alfa Slab One';
+  padding-left: 100px;
+}
+
+header #info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header #info p {
+  border-radius: 2px;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  margin: 1px;
+  padding: 1px;
+  background-color: rgb(158, 121, 73);
+}
+
+header #info p a {
+  color: black;
+}
+
+body {
+  background-color: #ebe7bc;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-height: 70%;
+  height: auto;
+}
+
+main section {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+#content {
+  height: auto;
+}
+
+#content #selection {
+  font-family: 'Lemonada';
+  height: auto;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding: 2px;
+  border-top: rgb(158, 121, 73) solid 3px;
+  border-bottom: rgb(158, 121, 73) solid 3px;
+}
+
+#content #selection span {
+  border: rgb(76, 104, 104) solid 1px;
+  background-color: rgb(219, 170, 111);
+  margin: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30%;
+}
+
+.sidebar {
+  height: auto;
+  min-width: 11em;
+  background-color: #ebe4ab;
+  border-right: rgb(158, 121, 73) solid 3px;
+  overflow: auto;
+}
+
+.sidebar div {
+  border: rgb(76, 104, 104) solid 2px;
+  background-color: #f0f0a7;
+  font-size: 1.5rem;
+  width: 6em;
+  border-radius: 5%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 0em;
+}
+
+.sidebar div p {
+  font-family: 'Lemonada';
+  margin: 0;
+}
+
+#content .goods {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  font-family: 'Vollkorn';
+  margin: 2em;
+  max-width: 250px;
+  max-height: 500px;
+  background-color: beige;
+  border-radius: 3%;
+  border: rgb(76, 104, 104) solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.book #info {
+  margin: 1em 1em 1em 2em;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+.book #info span {
+  /* work like block element */
+  display: block;
+  /* would break the work in normal mode */
+  word-break: normal;
+  /* for taking a new line while the content is to long */
+  white-space: pre-wrap;
+  /* move a word to the new line if there is no space */
+  word-wrap: break-word;
+}
+
+.book #option {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2px;
+  padding: 2px;
+}
+
+.book #option span {
+  padding: 2px;
+  border-radius: 7px;
+  background-color: #ebe4ab;
+  border: rgb(76, 104, 104) solid 2px;
+}
+
+footer {
+  background-color: #ebe4ab;
+  margin-bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer #subscribe,
+footer p {
+  font-family: 'Vollkorn';
+  border-right: rgb(158, 121, 73) solid 2px;
+  border-left: rgb(158, 121, 73) solid 2px;
+  padding: 2px 2px;
+  margin: 10px;
+}
+
+footer #subscribe {
+  display: flex;
+}
+
+footer #subscribe div {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+footer #subscribe #subButton {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(163, 156, 113);
+  font-weight: bold;
+}
+
+/*contact form*/
+body main #form {
+  padding-top: 20px;
+  flex: 1;
+  justify-content: flex-end;
+  overflow: auto;
+}
+
+body main #submission div,
+body main #submission label {
+  align-items: center;
+  display: grid;
+  grid-template-columns: .65fr .5fr .5fr;
+}
+
+body main #submission div {
+  grid-template-rows: auto auto;
+}
+
+body main #submission p {
+  margin-right: 15px;
+  text-align: right;
+}
+
+body main #submission #getContent,
+body main #submission #getContentType,
+body main #submission input {
+  height: 30px;
+  width: 400px;
+
+  grid-column: 2/4;
+  font-size: 1.1em;
+}
+
+body main #submission #getContent{
+  min-height: 200px;
+  min-width: 400px;
+
+  max-height: 200px;
+  max-width: 400px;
+}
+
+body main #submission #orderNumber {
+  visibility: hidden;
+}
+
+body main #submission div {
+  text-align: end;
+}
+
+body main #submission #button {
+  margin-top: 15px;
+  margin-left: 50%;
+  border-radius: 5px;
+  text-align: center;
+  grid-column: 2/3;
+
+  height: 30px;
+  width: 100px;
+
+  color: white;
+  background-color: rgb(163, 156, 113);
+  font-weight: bold;
+}
