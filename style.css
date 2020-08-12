@@ -210,9 +210,10 @@ footer #subscribe div {
 }
 
 footer #subscribe #subButton {
+  cursor: pointer;
   border-radius: 5px;
   color: white;
-  background-color: rgb(163, 156, 113);
+  background-color: rgb(158, 121, 73);
   font-weight: bold;
 }
 
@@ -267,6 +268,8 @@ body main #submission div {
 }
 
 body main #submission #button {
+  cursor: pointer;
+
   margin-top: 15px;
   margin-left: 50%;
   border-radius: 5px;
@@ -277,6 +280,6 @@ body main #submission #button {
   width: 100px;
 
   color: white;
-  background-color: rgb(163, 156, 113);
+  background-color: rgb(158, 121, 73);
   font-weight: bold;
 }

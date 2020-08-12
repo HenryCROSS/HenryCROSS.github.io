@@ -64,9 +64,9 @@
 
         <label for="getPostalCode">
           <p>Postal Code:</p>
-          <input type="text" placeholder="Postal Code" name="postalCode" id="getPostalCode" value="" required
-            minlength="6" maxlength="7" autocomplete="off" autocorrect="off" spellcheck="false"
-            pattern="[A-Za-z][0-9][A-Za-z][ ]?[0-9][A-Za-z][0-9]">
+          <input type="text" placeholder="Postal Code" name="postalCode" id="getPostalCode" value=""
+            autocomplete="off" autocorrect="off" spellcheck="false"
+            pattern="^[A-Za-z][0-9][A-Za-z][ ]?[0-9][A-Za-z][0-9]$">
         </label>
 
         <label for="getContentType">
@@ -80,7 +80,7 @@
 
         <label for="getContent">
           <p id="contentP">Content:</p>
-          <input type="text" placeholder="Order" id="orderNumber" name="orderNumber" value="" required maxlength="128"
+          <input type="text" placeholder="Order" id="orderNumber" name="orderNumber" value="" maxlength="128"
             autocomplete="off" autocorrect="off" spellcheck="false">
           <textarea name="content" id="getContent" cols="400" rows="200" maxlength="512" required autocomplete="off"
             autocorrect="off" spellcheck="false"></textarea>
