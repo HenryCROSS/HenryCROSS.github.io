@@ -3,7 +3,7 @@ var data = [
   {
     id: 1,
     name: 'Milk And Honey',
-    image: 'milkAndHoney.jpg',
+    image: 'milkAndHoney.webp',
     description: 'A book for Magic studying',
     categories: 'Magic',
     price: 100
@@ -11,7 +11,7 @@ var data = [
   {
     id: 2,
     name: 'Pro Django',
-    image: 'proDjango.jpg',
+    image: 'proDjango.webp',
     description: 'A book for programming',
     categories: 'Coding',
     price: 200
@@ -19,7 +19,7 @@ var data = [
   {
     id: 3,
     name: 'Da Lat',
-    image: 'DaLat.jpg',
+    image: 'DaLat.webp',
     description: 'Advance Magical Study',
     categories: 'Magic',
     price: 100
@@ -27,7 +27,7 @@ var data = [
   {
     id: 4,
     name: 'WEB Learning Packet',
-    image: 'webLearning.jpg',
+    image: 'webLearning.webp',
     description: 'Getting better for web programming',
     categories: 'Coding',
     price: 450
@@ -35,7 +35,7 @@ var data = [
   {
     id: 5,
     name: 'Javascript For WEB Designers',
-    image: 'javascriptForWEBDesigners.jpg',
+    image: 'javascriptForWEBDesigners.webp',
     description: 'A book for web designing',
     categories: 'Coding',
     price: 200
@@ -43,7 +43,7 @@ var data = [
   {
     id: 6,
     name: 'ONYX & IVORY',
-    image: 'ONYXnIVORY.jpg',
+    image: 'ONYXnIVORY.webp',
     description: 'One of the interesting magic book in 404 book store',
     categories: 'Magic',
     price: 404
@@ -51,7 +51,7 @@ var data = [
   {
     id: 7,
     name: 'The PATH 404',
-    image: 'ThePATH404.jpg',
+    image: 'ThePATH404.webp',
     description: 'A hero who step into the Path 404',
     categories: 'Novel',
     price: 404
@@ -59,7 +59,7 @@ var data = [
   {
     id: 8,
     name: 'The Path 301',
-    image: 'ThePath301.jpg',
+    image: 'ThePath301.webp',
     description: 'A secret that hides in the shadow of the path...',
     categories: 'Novel',
     price: 301
@@ -67,7 +67,7 @@ var data = [
   {
     id: 9,
     name: 'The Goldem And The Jinni',
-    image: 'TheGoldemAndTheJinni.jpg',
+    image: 'TheGoldemAndTheJinni.webp',
     description: 'A story about Goldem and Jinni',
     categories: 'Novel',
     price: 400
@@ -75,7 +75,7 @@ var data = [
   {
     id: 10,
     name: 'The Path 200',
-    image: 'ThePath200.jpg',
+    image: 'ThePath200.webp',
     description: 'They finally succeeded and...',
     categories: 'Novel',
     price: 200
