@@ -6,7 +6,7 @@
   <link href="https://henrycross.github.io/atom.xml" rel="self"/>
   
   <link href="https://henrycross.github.io/"/>
-  <updated>2022-01-31T01:02:20.435Z</updated>
+  <updated>2022-01-31T07:26:32.949Z</updated>
   <id>https://henrycross.github.io/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="https://henrycross.github.io/2022/01/30/The-reflection-from-a-Binary-Bomb/"/>
     <id>https://henrycross.github.io/2022/01/30/The-reflection-from-a-Binary-Bomb/</id>
     <published>2022-01-31T01:00:46.000Z</published>
-    <updated>2022-01-31T01:02:20.435Z</updated>
+    <updated>2022-01-31T07:26:32.949Z</updated>
     
-    <content type="html"><![CDATA[<p>之后会整理的</p><p>test %eax, %eax:<br>The point of it is testing whether the %eax is equal to zero<br>result = %eax &amp; %eax</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="解决思路"><a href="#解决思路" class="headerlink" title="解决思路"></a>解决思路</h1><h2 id="第一题"><a href="#第一题" class="headerlink" title="第一题"></a>第一题</h2><p>第一个炸弹还是很好解开的，在phase_1(input)的时候用si，进去就可以看到的了<br>x/s 0x[地址]<br>然后就会看到答案了， 答案就是Border relations with Canada have never been better</p><h2 id="第二题"><a href="#第二题" class="headerlink" title="第二题"></a>第二题</h2><p>首先记得在phase_2的时候断点<br>第二个的重点在于sscanf，在一个read_six_number的代码段内。</p><p>之后会整理的</p><p>test %eax, %eax:<br>The point of it is testing whether the %eax is equal to zero<br>result = %eax &amp; %eax</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;之后会整理的&lt;/p&gt;
-&lt;p&gt;test %eax, %eax:&lt;br&gt;The point of it is testing whether the %eax is equal to zero&lt;br&gt;result = %eax &amp;amp; %eax&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h1 id=&quot;解决思路&quot;&gt;&lt;a href=&quot;#解决思路&quot; class=&quot;headerlink&quot; title=&quot;解决思路&quot;&gt;&lt;/a&gt;解决思路&lt;/h1&gt;&lt;h2 id=&quot;第一题&quot;&gt;&lt;a href=&quot;#第一题&quot; class=&quot;headerlink&quot; title=&quot;第一题&quot;&gt;&lt;/a&gt;第一</summary>
       
     
     
