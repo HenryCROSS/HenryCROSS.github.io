@@ -1,8 +1,8 @@
-name: Build
+name: Build and Deploy Hexo to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
 
 jobs:
@@ -10,34 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Setup Node.js env
-      uses: actions/setup-node@v4
-      with:
-        node-version: 'latest'
+      - name: Setup Node.js env
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
 
-    - name: Install pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 9
-        run_install: false
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
 
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Install Hexo environment
-      run: pnpm install
+      - name: Install Hexo dependencies
+        run: pnpm install
 
-    - name: Hexo build site
-      run: npx hexo generate --force
+      - name: Generate Hexo site
+        run: npx hexo generate --force
 
-    - name: Upload artifacts for pages
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: public
+      - name: Add .nojekyll
+        run: touch public/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
 
   deploy:
     needs: build
-    if: startsWith(github.event.ref, 'refs/heads/')
+    if: github.ref == 'refs/heads/main'
 
     permissions:
       pages: write
@@ -48,6 +51,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     runs-on: ubuntu-latest
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
