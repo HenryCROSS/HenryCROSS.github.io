@@ -3,7 +3,7 @@ title: {{ title }}
 categories:
 tags:
 #sticky:
-#cover:
+cover: null
 comments: false
 toc: true
 donate: false
