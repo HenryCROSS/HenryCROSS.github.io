@@ -123,3 +123,4 @@ sitemap:
 deploy:
   type: git
   repo: https://github.com/HenryCROSS/HenryCROSS.github.io.git
+  branch: main
