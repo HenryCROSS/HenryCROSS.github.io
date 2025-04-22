@@ -4,8 +4,8 @@ categories:
 tags:
 #sticky:
 #cover:
-comments: true
+comments: false
 toc: true
-donate: true
+donate: false
 share: true
 ---

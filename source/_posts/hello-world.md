@@ -5,7 +5,7 @@ categories: 全新体验
 tags:
 - 欢迎
 sticky: 1
-#cover:
+cover: null
 comments: true
 toc: true
 ---

@@ -4,9 +4,9 @@ date: {{ date }}
 categories:
 tags:
 #sticky:
-#cover:
-comments: true
+cover: null
+comments: false
 toc: true
-donate: true
+donate: false
 share: true
 ---
