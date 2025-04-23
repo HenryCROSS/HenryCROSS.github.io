@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 欢迎进入我的博客
 comments: false
 sticky: 1

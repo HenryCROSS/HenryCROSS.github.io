@@ -27,6 +27,9 @@ nav:
     - label: 档案馆
       icon: file
       url: /archives/
+    - label: 简历
+      icon: file-text
+      url: /resume/
     # - label: 链接
     #   icon: link
     #   submenu:
@@ -56,7 +59,7 @@ footer:
 
 # 代码高亮
 syntax_highlighter:
-  theme: atom-dark # 代码高亮主题（请参照具体的高亮插件对应的主题样式）
+  theme: night-eighties # 代码高亮主题（请参照具体的高亮插件对应的主题样式）
 
 # Widgets 侧边栏小挂件
 sidebar:
@@ -80,16 +83,16 @@ sidebar:
 #       link: "https://nya.one/share?text=%3E%20$TITLE%0A%3E%0A%3E%20$SUMMARY%0A----%20$SITE%0A%0A$URL"
 
 # 打赏组件设置
-donate:
-  enable: false
-  title: "赞助喵"
-  message: 非常感谢您的喜欢！ <i class="fa fa-heart" style="color:#d43f57"></i>
-  qrcode_placeholder: "https://dev.krt.moe/demo-assets/donate.webp"
-  platforms:
-    - name: "模拟支付"
-      icon: "credit-card"
-      color: "skyblue"
-      qrcode: "example_payment"
+# donate:
+#   enable: false
+#   title: "赞助喵"
+#   message: 非常感谢您的喜欢！ <i class="fa fa-heart" style="color:#d43f57"></i>
+#   qrcode_placeholder: "https://dev.krt.moe/demo-assets/donate.webp"
+#   platforms:
+#     - name: "模拟支付"
+#       icon: "credit-card"
+#       color: "skyblue"
+#       qrcode: "example_payment"
 
 # 版权说明
 copyright_notice:
