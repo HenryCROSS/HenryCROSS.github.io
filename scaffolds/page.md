@@ -6,4 +6,5 @@ toc: true
 donate: false
 cover: null
 share: true
+mathjax: true
 ---

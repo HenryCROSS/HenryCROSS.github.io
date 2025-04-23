@@ -9,4 +9,5 @@ comments: false
 toc: true
 donate: false
 share: true
+mathjax: true
 ---
