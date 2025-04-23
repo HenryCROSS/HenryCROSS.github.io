@@ -16,5 +16,5 @@ mathjax: true
 这是我的博客，我会努力不定期地在此更新，有可能是我的学习笔记，也可能是其他乱七八糟的东西！
 
 $$
-\int_{a}^{b} f(x)dx
+\frac{\Gamma \vdash x : A}{\Gamma \vdash \lambda x. x : A \to A} \quad \text{[函数抽象规则]}
 $$
