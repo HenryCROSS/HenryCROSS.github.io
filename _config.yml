@@ -108,16 +108,6 @@ plugin:
  - hexo-generator-feed
  - hexo-generator-sitemap
 
-mathjax:
-  enable: true
-  per_page: true
-  cdn: /mathjax/es5/tex-mml-chtml.js
-  config:
-    tex:
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-
-
 feed:
  type: atom
  path: atom.xml
