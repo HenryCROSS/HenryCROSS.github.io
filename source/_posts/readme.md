@@ -29,3 +29,17 @@ mathjax:
 {% mathjax %}
 \frac{\Gamma \vdash x : A}{\Gamma \vdash \lambda x. x : A \to A} \quad \text{[函数抽象规则]}
 {% endmathjax %}
+
+# TODO List
+
+## Type Theory 相关讨论
+
+- 持续学习
+
+## 编译器相关讨论
+
+- 预定中。。。
+
+## Agile框架相关讨论
+
+- Kanban
