@@ -30,12 +30,12 @@ nav:
     - label: 简历
       icon: file-text
       url: /resume/
-    # - label: 链接
-    #   icon: link
-    #   submenu:
-    #     - label: 代码仓库
-    #       icon: code
-    #       url: https://github.com/Candinya/Kratos-Rebirth
+    - label: 友链
+      icon: link
+      submenu:
+        - label: 海龙的博客
+          icon: code
+          url: https://inksnowhailong.github.io/inksnow-blog/
     #     - label: 项目文档
     #       icon: book
     #       url: https://wiki.krt.moe
